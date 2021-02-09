@@ -12,6 +12,9 @@ static void initstruct(t_filler *data)
 
 int	main(void)
 {
+	FILE * fp;
+
+  fp = fopen ("file.txt", "w+");
 	t_filler	data;
 	int				ret_gnl;
 	char			*line;
@@ -22,8 +25,8 @@ int	main(void)
 		ret_gnl = get_next_line(0, &line);
 		ft_get_info(line, &data);
 		ft_get_map(&data);
+		fprintf(fp, "%d %d \n", 0, 0);
 	}
-
-
+	fclose(fp);
 	return(0);
 }
