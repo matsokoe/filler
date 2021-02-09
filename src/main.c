@@ -1,4 +1,5 @@
 #include "../include/filler.h"
+#include <stdio.h>
 
 static void initstruct(t_filler *data)
 {
@@ -18,10 +19,11 @@ int	main(void)
 	initstruct(&data);
 	while(1)
 	{
-		ret_gnl = ft_get_next_line(0, &line);
+		ret_gnl = get_next_line(0, &line);
 		ft_get_info(line, &data);
 		ft_get_map(&data);
 	}
+
 
 	return(0);
 }

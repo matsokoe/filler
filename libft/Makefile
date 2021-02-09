@@ -22,7 +22,7 @@ SRCS = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c \
 	   ft_strjoin.c ft_putchar.c ft_putstr.c ft_putendl.c ft_putnbr.c \
 	   ft_putstr_fd.c ft_putchar_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
 	   ft_strtrim.c ft_itoa.c ft_strsplit.c ft_lstnew.c ft_lstdelone.c \
-	   ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c \
+	   ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c get_next_line.c \
 
 OBJ = ft_memset.o ft_bzero.o ft_memcpy.o ft_memccpy.o ft_memmove.o \
 	  ft_memchr.o ft_memcmp.o ft_strlen.o ft_strdup.o ft_strcpy.o \
@@ -35,7 +35,7 @@ OBJ = ft_memset.o ft_bzero.o ft_memcpy.o ft_memccpy.o ft_memmove.o \
 	  ft_strjoin.o ft_putchar.o ft_putstr.o ft_putendl.o ft_putnbr.o \
 	  ft_putstr_fd.o ft_putchar_fd.o ft_putendl_fd.o ft_putnbr_fd.o \
 	  ft_strtrim.o ft_itoa.o ft_strsplit.o ft_lstnew.o ft_lstdelone.o \
-	  ft_lstdel.o ft_lstadd.o ft_lstiter.o ft_lstmap.o \
+	  ft_lstdel.o ft_lstadd.o ft_lstiter.o ft_lstmap.o get_next_line.o\
 
 FLAGS = -Wall -Wextra -Werror
 

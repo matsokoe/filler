@@ -10,7 +10,7 @@ static void ft_get_piece(t_filler *data, char *line)
   row_piece = 0;
   if (ft_strstr(line, "Piece"))
     line = line + 1;
-  while (ft_get_next_line(0, &line) > 0)
+  while (get_next_line(0, &line) > 0)
   {
     ft_strjoin(pieceline, line);
     ft_strjoin(pieceline, "\n");
@@ -29,7 +29,7 @@ void ft_get_map(t_filler *data)
 
   row_map = 0;
   mapline = "\0";
-  while(ft_get_next_line(0, &line) > 0)
+  while(get_next_line(0, &line) > 0)
   {
     if(ft_isdigit(line[0]) == 1)
     {

@@ -1,4 +1,4 @@
-NAME = hde-ghel.filler
+NAME = matsokoe.filler
 CC = gcc
 #FLAGS = -Wall -Werror -Wextra
 FLAGS = -fsanitize=address

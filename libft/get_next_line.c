@@ -39,7 +39,7 @@ static char		*ft_clean_new(char *str)
 	return (new);
 }
 
-int				ft_get_next_line(const int fd, char **line)
+int				get_next_line(const int fd, char **line)
 {
 	char		buff[BUFF_SIZE + 1];
 	int			ret;
